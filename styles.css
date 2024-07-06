@@ -6,7 +6,7 @@ body{
 
 header{
     height:50px;width: auto;
-    background-color: blue;
+    background-color: rgb(31, 108, 191);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -19,17 +19,17 @@ header{
     justify-content:baseline;
 }
 #profile{
-    height:250px;width: 100%;
+    height:170px;width: 100%;
     border:2px solid black;
 }
 
 #about{
-    height: 250px;width: 450px;
+    height: 200px;width: 450px;
     border: 2px solid black;
 }
 
 #experience{
-    height: 250px;width: 350px;
+    height: 200px;width: 350px;
     border: 2px solid black;
     
 }
@@ -38,3 +38,19 @@ header{
     height: 80px;width: 100%;
     border: 2px solid black;
 }
+
+.bc{
+    display: flex;
+    justify-content: baseline;
+}
+
+#blogs{
+    height:100px;width:40%;
+    border:2px solid black;
+}
+
+#contact{
+    height:100px;width:60%;
+    border:2px solid black;
+}
+
