@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+    margin:0%;   
+    font-variant: small-caps;
+}
+
+header{
+    height:50px;width: auto;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-variant: small-caps;
+}
+
+.ae{
+    display: flex;
+    justify-content:baseline;
+}
+#profile{
+    height:250px;width: 100%;
+    border:2px solid black;
+}
+
+#about{
+    height: 250px;width: 450px;
+    border: 2px solid black;
+}
+
+#experience{
+    height: 250px;width: 350px;
+    border: 2px solid black;
+    
+}
+
+#projects{
+    height: 80px;width: 100%;
+    border: 2px solid black;
+}
