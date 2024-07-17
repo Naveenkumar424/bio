@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body{
+            margin:0;
+        }
+        header,footer{
+            background-color: #007bff;
+            color: white;
+            font-size: 32px;
+            font-variant: small-caps;
+            height:100px;width:100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #bio{
+            height:70vh;width:95vw;
+        }
+        #anu:hover{
+            cursor: pointer;
+        }
+        #anusha{
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <header>Portfolio</header>
+    <div id="bio">
+        <h1>Naveen Kumar S</h1>
+        <p> I believe in learning rather than memorizing.</p>
+        <p> When something is important enough, you do it even if the odds are not in your favor.</p>
+        <br>
+        <h2>Skills:</h2>
+        <p>Active learner ,always in the process of learning .</p>
+        <p>Problem Solver ,analyzing different approaches to solve the same problem .</p>
+        <br>
+        <h2>Hobbies:</h2>
+        <p>Teaching ,as Knowledge is best when shared .</p>
+        <p>Learn In Public ,a recent hobby which instills more intrest in coding .</p>
+        <p>Participating in Contest ,eager to attend weekly coding contest by leetcode .</p>
+        <br>
+        <h2 id="anusha"></h2>
+    </div>
+    <footer>with tributes to <span id="anu" onclick="anu()" ondblclick="anud()">Anusha</span></footer>
+    <script>
+        function anu(){
+            let p = document.querySelector("#anusha");
+            p.innerText = "Anusha - A beautiful gem which lost its shine in the process of polishing.";
+        }
+        function anud(){
+            let p = document.querySelector("#anusha");
+            p.innerText = "";
+        }
+    </script>
+</body>
+</html>
