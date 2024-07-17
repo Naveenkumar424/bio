@@ -6,6 +6,9 @@
     <title>About</title>
     <style>
         body{
+            display:flex;
+            flex-direction: column;
+            min-height: 100vh;
             margin:0;
         }
         header,footer{
@@ -19,15 +22,17 @@
             justify-content: center;
         }
         #bio{
-            height:80vh;width:95vw;
-            display: block;
-            position: relative;
+            flex-grow: 1;
+            padding: 20px;
         }
         #anu:hover{
             cursor: pointer;
         }
         #anusha{
             font-variant: small-caps;
+        }
+        footer{
+            flex-shrink: 0;
         }
     </style>
 </head>
